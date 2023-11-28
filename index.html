@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="web-styles.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ICST : Home</title>
+
+    <link href="Bootstraps/cssboot.css" rel="stylesheet">   
+    <script src="Bootstraps/jsboot.js"></script>   
+  
+    <style>
+        body{
+          background-image: url('Memes/Background.png');
+          background-size: cover;
+          background-position: top;
+          background-color: rgb(25, 28, 34);
+        }
+        p {
+          font-size: 15px;
+          color: aliceblue;
+        }
+        h1 {
+          font-size: 50px;
+          text-align: center;
+          font-weight: bolder;
+          color: white;
+        }
+        h2 {
+          text-align: center;
+          font-weight: bolder;
+          color: white;
+        }
+    </style>
+  </head>
+
+  <header>
+    <div style="text-align: -center;">
+      <hr>
+      <h2>ICST <var>Hub</var></h2>
+    </div>
+  </header>
+
+  <main style="margin-top: 10vmin;">
+    <div class="text-center container">             
+      <h1 class="fw-dark">ICST Datastore<hr style="opacity: 1;"></h1>   
+      <br>       
+      <p style="color: white;">
+        <strong style="font-size: 25px;">ICST </strong><var style="font-weight: bolder">Hub</var> Why store your grades, peformance tasks, and written works in flimsy notebooks when you can just make a website 😩😩😩
+      </p><br> 
+      <h1 class="fw-dark"><hr style="opacity: 1;"></h1>                
+      <p class="dataid">Detected Guest IPv4 Address with Insufficient Clearance : Now viewing in protected mode.</p>
+      <br>
+      <div class="container">
+        <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4">
+          
+          <div class="col">
+            <div style="background-image: url(Memes/req.png);" class="card-body box">
+              <div class="grad">
+                <button onclick="cl_right()" class="button">ACADEMIC</button> 
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div style="background-image: url(Memes/props.png);" class="card-body box">
+              <div class="grad">
+                <button onclick="cl_mid()" class="button">WRITTEN</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div style="background-image: url(Memes/home.png);" class="card-body box">
+              <div class="grad">
+                <button onclick="cl_left()" class="button">PERFORMANCE TASKS</button>
+              </div>
+            </div>
+          </div>
+          
+          <script>
+            function cl_right() {
+              window.location.replace("grades.html")
+            }
+            function cl_mid() {
+              window.location.replace("written.html")
+            }
+            function cl_left() {
+              window.location.replace("performance.html")
+            }
+          </script>
+
+        </div><br>
+
+        <br>
+
+        <div class="container ltxt">
+          <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-4">
+            
+            <div class="card shadow-lg bg-dark ltxt"> 
+              <div class="card-body">
+                
+                <p class="card-text">
+                  <strong>Available Datastores</strong><br>
+                  Contributions of students who are willing to give out their academic grades.<hr>
+                </p>
+
+                <div class="container ltxt">
+                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-4">
+      
+                    <div class="card shadow-sm bg-dark">                                
+                      <p>
+                        <strong>Andrew **********</strong><br>
+                        <strong style="font-size: medium;">Stored Data</strong><br>
+                        <hr class="undone"> 
+                        <p class="dataid">Hidden by Author</p>                     
+                      </p>
+                    </div>
+
+                    <div class="card shadow_sm bg-dark">
+                      <p>
+                        <strong>Laurence **********</strong><br>
+                        <strong style="font-size: medium;">Stored Data</strong><br>
+                        <hr class="undone"> 
+                        <p class="dataid">Hidden by Author</p>
+                      </p>
+                    </div>
+
+                    <div class="card shadow_sm bg-dark">
+                      <p>
+                        <strong>Joushua **********</strong><br>
+                        <strong style="font-size: medium;">Stored Data</strong><br>
+                        <hr class="undone"> 
+                        <p class="dataid">Hidden by Author</p>
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>      
+          </div>
+        </div>
+
+        <br>
+      </div>
+    </div>
+  </main>
+</html>
+
